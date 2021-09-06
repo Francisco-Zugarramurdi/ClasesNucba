@@ -1,0 +1,19 @@
+html {
+    background-color: rgb(69, 110, 69);
+}
+
+div {
+    background-color: rgb(97, 48, 48);
+    margin: 0%, 0%, 0%, 0%;
+    text-align: center;
+}
+.especial{
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    background-color: rgb(180, 160, 160);
+    border-radius: 5px;
+    margin:0% 0% 0% 0%;
+
+}

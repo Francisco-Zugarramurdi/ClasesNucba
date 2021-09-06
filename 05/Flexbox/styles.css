@@ -1,0 +1,28 @@
+div{
+    padding: 2%;
+    margin: 1%;
+}
+p{
+    background-color: rgb(173, 120, 173);
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+}
+.flex1{
+    background-color: wheat;
+    display: flex;
+}
+.flex2{
+    background-color: rgb(168, 130, 58);
+    display: flex;
+    flex-direction: column;
+}
+.flex3{
+    background-color: rgb(165, 113, 16);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.miniFlex1{
+    width: 40%;
+}

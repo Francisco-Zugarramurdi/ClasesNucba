@@ -1,0 +1,34 @@
+div{
+    padding: 2%;
+    margin: 1%;
+}
+p{
+    background-color: rgb(173, 120, 173);
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+}
+.flex1{
+    background-color: wheat;
+    display: flex;
+}
+.flex2{
+    background-color: rgb(168, 130, 58);
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    background-color: rgb(165, 113, 16);
+    display: flex;
+    justify-content: center;
+}
+.miniFlex{
+    border-radius: 5px;
+    width: 10%;
+}
+.flex .miniFlex:First-of-type{
+    background-color: green;
+}
+.flex .miniFlex:Last-of-type{
+    background-color: darkred;
+}

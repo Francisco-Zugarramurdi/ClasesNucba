@@ -1,0 +1,13 @@
+p {
+    background-color: teal;
+    padding: 3%;
+    width: 40%;
+}
+
+.Derecha {
+    float: right;
+}
+
+.Izquierda {
+    float: left;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREE FIRE</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Free FAIER</h1>
+    </header>
+    <main>
+        <h2>Completa el siguiente formulario para concretar su inscripcion al hotel</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, eos!</p>
+        <form method="GET">
+            <h2>Ingrese sus datos personales</h2>
+            <!--input -->
+            <label for="nombre">Ingrese su nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" maxlength="24">
+            <!-- Otra forma de usar el label para el focus -->
+            <label> Apellido:
+                <input type="text" id="apellido" placeholder="ingrese su apellido" maxlength="24">
+
+            </label>
+            <!-- Contraseña -->
+            <label> Contraseña:
+                <input type="password" name="password" id="password" placeholder="ingrese su nueva contraseña" required>
+
+            </label>
+            <label> Cedula
+                <input type="number" placeholder="ingrese su cedula">
+            </label>
+            <h2>Seleccione sus comidas</h2>
+            <label>
+                <input type="checkbox" value="desayuno" checked>Desayuno
+            </label>
+            <label>
+                <input type="checkbox" value="merienda" checked>Merienda
+            </label>
+            <label>
+                <input type="checkbox" value="cena" disabled>Cena
+            </label>
+            <!-- input radio -->
+            <h2>Tipo de habitacion</h2>
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="radio" id="radio1">Algun rincon con techo (quizas) $100
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <!-- El name tiene que coincidir -->
+                        <input type="radio" name="radio" id="radio1">Habitacion normal US$100
+                    </label>
+                </li>
+                <li>
+                    <label>
+
+                        <input type="radio" name="radio" id="radio2">Habitacion Premium US$200
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="radio" id="radio3">Habitacion Royale US$400
+
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="radio" id="radio4">Habitacion tematica Free Fire US$500
+
+                    </label>
+
+                </li>
+
+
+
+
+            </ul>
+            <h2>Sucursales</h2>
+            <select name="Sucursales" id="sucursales">
+                <option value="Las piedras">Las piedras</option>
+                <option value="San jose">San jose</option>
+                <option value="Canelones">Canelones</option>
+                <option value="Artigas">Artigas</option>
+                <option value="Parque" selected>Parque Free Fire (costo adicional)</option>
+
+            </select>
+
+            <h2>Alergias</h2>
+            <select name="Alergias" id="alergias" multiple>
+                <option value="mani">mani</option>
+                <option value="amarillo">amarillo</option>
+                <option value="quizas">quizas</option>
+            </select>
+
+
+
+            <h2>Subi foto de tu cedula (delante y atras)</h2>
+            <input type="file" name="foto" id="foto" multiple value="fotos" accept="image/*">
+            <h2>Presiona para instalar free fire</h2>
+            <input type="button" name="boton" value="free fire!">
+            <h2>Fecha de reserva</h2>
+            <label>Fechita
+                <input type="date" name="date"id="date">
+
+            </label>
+            <br>
+            <br>
+            <!-- Text area -->
+            <label>Ingresa un comentario o sugerencia <br>
+                <textarea name="comentario" id="comentario" cols="20" rows="10"
+                    placeholder="Dejanos tu opinion"></textarea>
+            </label>
+
+            <h3>Envia tus datos!</h3>
+            <input type="submit" value="Mandale">
+
+        </form>
+
+    </main>
+</body>
+
+</html>

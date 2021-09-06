@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    background-color: rgb(105, 129, 50);
+}
+
+h1,
+p {
+    color: peru;
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h1 {
+    font-weight: 900;
+}
+
+p {
+    font-weight: 200;
+    color: salmon;
+}
+
+div {
+    margin-top: 2%;
+    background-color: rgb(90, 88, 88);
+}
+
+.divEspecial {
+    background-color: rgb(85, 40, 97);
+}
+
+#lorem {
+    background-color: rgb(49, 62, 121);
+}
+
+.loremcito {
+    color: white;
+    background-color: rgb(87, 9, 74);
+}
+
+ul li {
+    list-style-type: disclosure-closed;
+}
+
+span {
+    font-family: cursive;
+    background-color: inherit;
+    color: red;
+    cursor: none;
+}
