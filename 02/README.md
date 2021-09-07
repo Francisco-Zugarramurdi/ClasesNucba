@@ -1,2 +1,0 @@
-# Pimera clase GIT
-
