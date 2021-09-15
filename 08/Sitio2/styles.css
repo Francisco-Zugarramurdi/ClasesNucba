@@ -1,0 +1,9 @@
+:root {
+    --secondary: #5F506B;
+    --main: #76949F;
+    --accent: #86BBBD;
+}
+
+* {
+    background-color: var(--main);
+}

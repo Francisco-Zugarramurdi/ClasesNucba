@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El sitio del diario del dairy bugle y superman">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Daily Planet</title>
+</head>
+
+<body>
+    <div class="suscribe">
+        <p>Este es un diario independiente te pedimos encarecidamente que pagues la subscripcion
+            para ver sin interrupciones y no uses adblock porfavor.
+        </p>
+    </div>
+    <header>
+        <img src="./assets/logo.png" alt="logo">
+        <h1>Daily Planet</h1>
+        <nav>
+            <ul>
+                <li class="navlist"><a href="info.html"> Ultimas noticias</a></li>
+                <li class="navlist"><a href="info.html"> Superman</a></li>
+                <li class="navlist"><a href="info.html"> Internacionales</a></li>
+                <li class="navlist"><a href="info.html"> Ecologia</a></li>
+                <li class="navlist"><a href="info.html"> Pronostico del tiempo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="principal">
+        <main>
+
+            <article>
+                <h2>
+                    Superman: de nuevo salvando la ciudad
+                </h2>
+                <p class="reporter">Por Lois Lane</p>
+                <figure>
+                    <img src="./assets/super.jpg" alt="super" class="photo">
+                    <figcaption>Superman posa frente a nuestra oficina</figcaption>
+                </figure>
+                <div class="newscontent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sint autem odit delectus!
+                        Deserunt tempora maxime, dolores vero quod dolore suscipit eum ipsum molestias eligendi placeat
+                        hic perspiciatis magni! Iste!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sint autem odit delectus!
+                        Deserunt tempora maxime, dolores vero quod dolore suscipit eum ipsum molestias eligendi placeat
+                        hic perspiciatis magni! Iste!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sint autem odit delectus!
+                        Deserunt tempora maxime, dolores vero quod dolore suscipit eum ipsum molestias eligendi placeat
+                        hic perspiciatis magni! Iste!
+                    </p>
+                </div>
+            </article>
+            <article>
+                <h2>
+                    Especial: todos los enemigos de Superman
+                </h2>
+                <p class="reporter"></p>
+                <figure>
+                    <img src="./assets/enemigos.jpg" alt="enemigos de Superman" class="photo">
+                    <figcaption>Superman tiene pocos amigos</figcaption>
+                </figure>
+                <div class="newscontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio asperiores culpa amet
+                        commodi nesciunt incidunt eius similique sed perferendis mollitia quas nulla doloribus alias
+                        ipsa ab ratione fugit assumenda!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio asperiores culpa amet
+                        commodi nesciunt incidunt eius similique sed perferendis mollitia quas nulla doloribus alias
+                        ipsa ab ratione fugit assumenda!</p>
+                </div>
+            </article>
+        </main>
+
+        <aside>
+            <article>
+                <h2>Sección publicitaria</h2>
+                <h3>Regalo del día del niño</h3>
+                <div class="ads">
+                    <figure>
+                        <img class="photo" src="./assets/Bat-signal.png" alt="Bat-signal">
+                        <figcaption>Para los mas pequeños de la casa!</figcaption>
+                    </figure>
+                    <figure>
+                        <img class ="photo"src="./assets/lasso.jpeg" alt="amazon">
+                        <figcaption>Saca a la amazona que hay en vos!</figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quasi magnam earum
+                        doloremque itaque quo asperiores obcaecati porro laudantium aperiam ipsam veritatis distinctio
+                        sit dolorum eaque, provident quos tempore nam.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quasi magnam earum
+                        doloremque itaque quo asperiores obcaecati porro laudantium aperiam ipsam veritatis distinctio
+                        sit dolorum eaque, provident quos tempore nam.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quasi magnam earum
+                        doloremque itaque quo asperiores obcaecati porro laudantium aperiam ipsam veritatis distinctio
+                        sit dolorum eaque, provident quos tempore nam.</p>
+                </div>
+            </article>
+            <img class="photo"src="./assets/heroes.jpg" alt="">
+        </aside>
+
+    </div>
+    <div class="suscribe">
+        <h2>Subscribite para recibir las nuevas noticias del Metropolis</h2>
+        <form action="/" method="GET">
+            <h3>Datos de contacto</h3>
+            <label class="userinfo">Tu nombre:
+                <input type="text" name="SubName" placeholder="Clark" required>
+            </label>
+            <label class="userinfo">Tu apellido:
+                <input type="text" name="SubSurName" placeholder="Kent" required>
+            </label>
+            <label class="userinfo">Tu email:
+                <input type="email" name="Subemail" placeholder="example@domain.com" required>
+            </label>
+            <h3>Ciudad de origen</h3>
+            <select name="city">
+                <option value="montevideo" class="cityText" selected>montevideo</option>
+                <option value="canelones" class="cityText">canelones</option>
+                <option value="tacuarembo" class="cityText">tacuarembo</option>
+                <option value="rocha" class="cityText">rocha</option>
+                <option value="san jose"> class="cityText"san jose</option>
+                <option value="other" class="cityText">otra</option>
+            </select>
+            <h3>Tipo de subscripcion</h3>
+            <label class="usertype">
+                <input type="radio" name="type" id="valor1" value="1">Basica
+            </label>
+            <label class="usertype">
+                <input type="radio" name="type" id="valor2" value="2">Premium
+            </label>
+            <label class="usertype">
+                <input type="radio" name="type" id="valor3" value="3" checked>Deluxe
+            </label>
+            <p>Que subscripcion es para mi?
+                <a href="./info.html">Click para mas info!</a>
+            </p>
+            <button>Subscribite!</button>
+        </form>
+    </div>
+    <footer>
+        <p>Daily Bugle no es propiedad registrada de Superman &copy; Metropolis 1932.</p>
+        <p>Hecho por Zugarra para
+            <a href="https://plataforma.nucba.io/home" target="_blank">Nucba</a>
+        </p>
+    </footer>
+</body>
+
+</html>
