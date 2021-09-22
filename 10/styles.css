@@ -71,7 +71,10 @@ main{
 main img{
     height: 180px;
 }
-
+/* Nav oculta */
+nav .inlinelist{
+    display: none;
+}
 /* Prooduct */
 .product{
     display: flex;
@@ -109,3 +112,22 @@ button {
 	
  }
         
+ /* Media queries */
+ @media (min-width: 768px){
+     h1{
+         font-size: 3em;
+     }
+     i{
+         font-size: 2em;
+     }
+     p li button{
+         font-size: 1.5em;
+     }
+     .product button{
+         padding: 3% 14%;
+     }
+     main img{
+         height:300px;
+     }
+
+ }

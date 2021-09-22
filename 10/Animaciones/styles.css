@@ -1,0 +1,52 @@
+.cuad {
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+}
+
+.cuadradito {
+    animation-name: cuadrado;
+    animation-duration: 3s;
+}
+
+@keyframes cuadrado {
+    from {
+        background-color: yellowgreen;
+    }
+
+    to {
+        background-color: teal;
+    }
+}
+
+
+.cuadradito2 {
+    animation-name: anim2;
+    animation-duration: 5s;
+}
+
+@keyframes anim2 {
+    0% {
+        background-color: yellowgreen;
+    }
+
+    33% {
+        background-color: cyan;
+        width: 100%;
+    }
+    50%{
+        background-color: darkorange;
+    }
+}
+.cuadradito3 {
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+.cuadradito4 {
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
